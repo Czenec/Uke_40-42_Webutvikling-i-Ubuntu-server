@@ -1,0 +1,119 @@
+/* --- Page --- */
+body {
+    max-width: 110%;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(52, 52, 52);
+}
+
+/* --- Header --- */
+Header {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    z-index: 10;
+    background-color: rgb(245, 69, 161);
+}
+.FITNESS-logoImage_th_th00 {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    height: 3rem;
+    background-color: rgb(52, 52, 52);
+}
+.FITNESS-logoImage_img {
+    width: 100%;
+}
+.FITNESS-logoImage_th_th01 {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 6.25%;
+    height: 3rem;
+    background-color: rgb(52, 52, 52);
+    border-radius: 0 0 100% 0;
+}
+.link-Booking-Page, .link-AboutUs, .link-Log-in_Register {
+    color: black;
+    text-decoration: none;
+}
+.spacer {
+    font-size: 0.5rem;
+}
+
+/* --- Front Page --- */
+.Front-page_Text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 100%;
+    height: 12rem;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.Front-page_Text-div {
+    padding: 2rem;
+}
+.Front-page_Text00, .Front-page_Text01 {
+    color: white;
+}
+.Front-page_Image, .Front-page_Vektor {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+.Front-page_Vektor {
+    position: absolute;
+    padding-top: 33rem;
+}
+
+/* - Products - */
+.Content {
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+}
+.Content_center {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.Content_product00, .Content_product01 {
+    display: block;
+}
+.ni-ukers, .måned {
+    display: flex;
+}
+.ni-ukers_1-økt, .ni-ukers_2-økt, .måned_1-økt, .måned_2-økt {
+    background-color: blue;
+    border-radius: 100%;
+    width: 100%;
+}
+.Content_spacer, .ni-ukers_spacer, .måned_spacer {
+    width: 100px;
+}
+/*.Content_product01 {
+    display: block;
+}
+.måned {
+    display: flex;
+}*/
+
+/* --- Footer --- */
+footer {
+    margin-bottom: 0;
+    background-color: rgb(30, 30, 30);
+    height: 10rem;
+    padding: 6rem;
+    text-align: center;
+}
+.footer-Auth {
+    color: rgb(245, 69, 161);
+}

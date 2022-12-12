@@ -1,0 +1,103 @@
+/* --- Page --- */
+body {
+    max-width: 110%;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(245, 69, 161);
+}
+
+/* --- Header --- */
+Header {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    background-color: rgb(245, 69, 161);
+}
+.FITNESS-logoImage_th_th00 {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    height: 3rem;
+    background-color: rgb(52, 52, 52);
+}
+.FITNESS-logoImage_img {
+    width: 100%;
+}
+.FITNESS-logoImage_th_th01 {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 6.25%;
+    height: 3rem;
+    background-color: rgb(52, 52, 52);
+    border-radius: 0 0 100% 0;
+}
+.link-Booking-Page, .link-AboutUs, .link-Log-in_Register {
+    color: black;
+    text-decoration: none;
+}
+.spacer {
+    font-size: 0.5rem;
+}
+
+/* --- Front Page --- */
+.Front-page_div {
+    display: flex;
+}
+.Front-Page_Image_BG {
+    margin-top: 1.5%;
+    width: 65%;
+}
+.Front-Page_Image_logo {
+    position: absolute;
+    width: 45%;
+    padding: 6rem;
+}
+.div00 {
+    width: 100%;
+    list-style: none;
+}
+.Front-Page_Text00 {
+    background-color: rgb(18, 168, 255);;
+    width: 100%;
+    height: 17rem;
+    text-align: center;
+}
+.Front-Page_Text00_p {
+    padding: 3rem;
+    font-size: 1em;
+    color: white;
+}
+.Front-Page_Text01 {
+    background-color: rgb(245, 69, 161);
+    width: 100%;
+    height: 17rem;
+    text-align: center;
+}
+.Front-Page_Text01_a {
+    text-decoration: none;
+}
+.Front-Page_Text01_p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-top: 7.5rem;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 600;
+    color: white;
+}
+
+/* ---Footer--- */
+footer {
+    margin-bottom: 0;
+    background-color: rgb(30, 30, 30);
+    height: 10rem;
+    padding: 6rem;
+    text-align: center;
+}
+.footer-Auth {
+    color: rgb(245, 69, 161);
+}
